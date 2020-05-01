@@ -9,8 +9,8 @@ let mapToNegativize = (sourceArray) => {
     // }
 } 
 
-const mapToNoChange = (dune) => {
-    const iterator = dune.map(function(name){
+const mapToNoChange = (sourceArray) => {
+    const iterator = sourceArray.map(function(name){
         return name
     })      
 }
