@@ -1,12 +1,10 @@
 // Your code here
-let mapToNegativize = (sourceArray) => {
-        let thisNum = -1
-        return sourceArray.map(num => num * thisNum)
-    // for (let i = 0; i < sourceArray.length; i++) {
-    //     if (sourceArray[i] <= 1){
-    //         return sourceArray[i] * thisNum
-    //     }
-    // }
+const mapToNegativize = (sourceArray) => {
+        let arr = []
+        for(let num of sourceArray) {
+            arr.push(num = num * -1)
+        }
+        return arr
 } 
 
 const mapToNoChange = (sourceArray) => {
